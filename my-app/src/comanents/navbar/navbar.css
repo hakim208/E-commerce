@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.payges{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.boxImg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width:900px) {
+    .payges{
+        display: none;
+    }
+}
