@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-top: 70px;
+}
+
+.box1 {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textFilling {
+    font-size: 70px;
+}
+
+.boxBtnAndtext {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+    padding: 30px 75px;
+    margin: 50px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cartUser {
+    display: flex;
+    align-items: center;
+    width: 92%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.section3 {
+    background-color: #413DEE;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    padding: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.search {
+    padding: 10px;
+    border: none;
+    border-radius: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.btnsearch {
+    background-color:#413DEE;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+}
+.searchinp{
+    padding: 10px 30px 10px 10px;
+    border: none;
+    border-radius: 50px;
+}
+.textSub{
+    font-size: 35px;
+}
+@media (max-width:900px) {
+    .section1 {
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;
+    }
+
+    .ImgSec1 {
+        width: 100%;
+    }
+
+    .cartUser {
+        flex-direction: column;
+        gap: 30pxсв ь;
+    }
+    .search{
+        gap: 30px;
+    }
+    .textSub{
+        font-size: 25px;
+    }
+    .section3{
+        padding: 35px;
+    }
+}
