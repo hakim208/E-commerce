@@ -4,6 +4,7 @@ import "./App.css"
 import Navbar from './comanents/navbar/navbar'
 import Button from './comanents/button/button'
 import Cart from './comanents/cart/cart'
+import Footer from './comanents/footer/footer'
 
 import Imgnavbar from "./assets/YOUR LOGO.png"
 import ImgChek from "./assets/Group 2609203.png"
@@ -12,6 +13,7 @@ import ImgSec1 from "./assets/Rectangle 10342.png"
 import ImgSec2 from "./assets/Frame 83.png"
 import ImgSale from "./assets/Group 2609204.png"
 import ImgCart from "./assets/Image (53).png"
+import ImgSilka from "./assets/Group 237471.png"
 
 const App = () => {
   let list = [{ imgSale: ImgSale, img: ImgCart, text: "Nokia Essential Wireless Headphones 120CM BLACK", add: "Add to Cart", btn: "Buy Now", id: 1 }, { imgSale: ImgSale, img: ImgCart, text: "Nokia Essential Wireless Headphones 120CM BLACK", add: "Add to Cart", btn: "Buy Now", id: 2 }, { imgSale: ImgSale, img: ImgCart, text: "Nokia Essential Wireless Headphones 120CM BLACK", add: "Add to Cart", btn: "Buy Now", id: 3 }]
@@ -59,10 +61,11 @@ const App = () => {
         <p className='textSub'>Subscribe to Our Newsletter</p>
         <p>Don't miss out on our top deals! Dont worry we will not spam you.</p>
         <div className="search">
-          <input type="text" className='searchinp' placeholder='Enter your Email Here '  />
+          <input type="text" className='searchinp' placeholder='Enter your Email Here ' />
           <button className='btnsearch'>Subscribe</button>
         </div>
       </div>
+      <Footer img={ImgSilka} />
     </div>
   )
 }
